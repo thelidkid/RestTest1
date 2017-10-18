@@ -1,9 +1,29 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
+  "Books": [
+    {
+      "id": 1,
+      "title": "Moby Dick",
+      "author": "Melville"
+    },
+    {
+      "id": 2,
+      "title": "Art of War",
+      "author": "Sun zu"
+    },
+    {
+      "id": 3,
+      "title": "The art of Why",
+      "author": "Simon Sinek"
+    }
   ],
   "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
   ],
-  "profile": { "name": "typicode" }
+  "profile": {
+    "name": "typicode"
+  }
 }
